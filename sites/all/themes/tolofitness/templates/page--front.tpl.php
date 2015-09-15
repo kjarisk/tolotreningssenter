@@ -164,17 +164,9 @@
       <div class="container">
         <div class="row">
          
-              <div class="preface-block col-sm-6">
-                <h3 class="tolo_fitnessk"><i class="fa fa-star"></i>&nbsp;Verv en venn</h3>
-                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/2015_02_22_verv_en_venn.png'; ?>" /> 
-                <?php print render ($page['preface_first']); ?>
-              </div>
-      
-          <?php if($page['preface_middle']): ?><div class="preface-block col-sm-<?php print $preface_col; ?>">
-            <?php print render ($page['preface_middle']); ?>
-          </div><?php endif; ?>
-          <?php if($page['preface_last']): ?><div class="preface-block col-sm-6">
-             <h3 class="tolo_Instagram"><i class="fa fa-instagram"></i>&nbsp;#tolofitness</h3>
+
+          <?php if($page['preface_last']): ?><div class="preface-block col-sm-12">
+             <h3 class="tolo_Instagram"><i class="fa fa-instagram"></i>&nbsp;#tolotreningssenter</h3>
             <?php print render ($page['preface_last']); ?>
           </div><?php endif; ?>
         </div>
@@ -201,22 +193,16 @@
 
           </section>
           <section class="sponsors">
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                 <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/armourstore.png'; ?>" />
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/nutramino-logo.png'; ?>" />
               </div>
-              <div class="col-sm-2">
+              <div class="col-sm-3">
                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/footerLogo_gymline.png'; ?>" />
               </div>
-              <div class="col-sm-2">
-               <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/wexer.png'; ?>" />
-              </div>
-              <div class="col-sm-2">
-               <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/vismoX.png'; ?>" />
-              </div>
-               <div class="col-sm-2">
+               <div class="col-sm-3">
                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/hydromassage.png'; ?>" />
               </div>
              
