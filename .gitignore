@@ -26,6 +26,13 @@ sites/all/themes/README.txt
 .sass-cache/
 *.css.map
 
+### custom ####
+.idea/
+*.sublime-project
+*.sublime-workspace
+backups/
+sftp-config.json
+
 
 ### Node ###
 # Logs
