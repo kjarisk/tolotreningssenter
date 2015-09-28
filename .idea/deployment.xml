@@ -5,7 +5,7 @@
       <paths name="Tolo treningssenter">
         <serverdata>
           <mappings>
-            <mapping deploy="/www/update" local="$PROJECT_DIR$" web="www/update" />
+            <mapping deploy="/www" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
