@@ -100,6 +100,6 @@ function tolofitness_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('slide3_url','tolofitness'),
   );
   $form['tolofitness_settings']['slideshow']['slideimage'] = array(
-    '#markup' => t('To change the Slide Images, Replace the slide-image-1.jpg, slide-image-2.jpg and slide-image-3.jpg in the images folder of the theme folder.'),
+    '#markup' => t('To change the Slide Images, Replace the slide-image-1_hydro.jpg, slide-image-3.jpg and slide-image-1.jpg in the images folder of the theme folder.'),
   );
 }

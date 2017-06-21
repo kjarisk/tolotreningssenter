@@ -193,18 +193,19 @@
 
           </section>
           <section class="sponsors">
-              <div class="col-sm-3">
-                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/armourstore.png'; ?>" />
-              </div>
+             
               <div class="col-sm-3">
                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/nutramino-logo.png'; ?>" />
               </div>
               <div class="col-sm-3">
-               <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/footerLogo_gymline.png'; ?>" />
+               <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/footerLogo_trx.png'; ?>" />
               </div>
                <div class="col-sm-3">
                <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/hydromassage.png'; ?>" />
               </div>
+            <div class="col-sm-3">
+              <img src="<?php print base_path() . drupal_get_path('theme', 'tolofitness') . '/images/assaultairbike.jpg'; ?>" />
+            </div>
              
           </section>
         </div>
